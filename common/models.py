@@ -9,8 +9,9 @@
 # See the License for the specific language governing permissions and limitations under the License.
 
 """
-This file is part of the accompanying code to our manuscript:
-Y. Wang, L. Zhang, N.B. Erichson, T. Yang. (2025). A Mass Conservation Relaxed (MCR) LSTM Model for Streamflow Simulation
+This file is part of the accompanying code to the following manuscripts:
+Wang, Y., Zhang, L., Erichson, N.B. and Yang, T., 2025. A mass conservation relaxed (MCR) LSTM model for streamflow simulation across CONUS. Water Resources Research, 61(8), p.e2024WR039131.
+Wang, Y., Zhang, L., Yu, A., Erichson, N.B. and Yang, T., 2025. A deep state space model for rainfall-runoff simulations. arXiv preprint arXiv:2501.14980.
 """
 
 
@@ -871,3 +872,4 @@ class LSTM_Model(nn.Module):
         last_h = self.dropout(h_n[:, -1, :])
         out = self.fc(last_h)
         return out, h_n, c_n
+
