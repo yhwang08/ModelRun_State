@@ -12,9 +12,11 @@ authors:
     given-names: Tiantian
 version: "1.0"
 date-released: 2025-10-22
-doi: 10.1029/2024WR039131
 license: MIT
 repository-code: "https://github.com/YihanWangHydro/ModelRun_State"
+identifiers:
+  - type: doi
+    value: 10.1029/2024WR039131
 preferred-citation:
   type: article
   title: "A Mass Conservation Relaxed (MCR) LSTM Model for Streamflow Simulation across CONUS"
