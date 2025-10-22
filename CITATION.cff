@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite both this repository and the associated papers."
+message: "If you use this code, please cite this repository and the corresponding paper(s) below."
 title: "ModelRun_State: Codes for LSTM, MCR-LSTM, and S4D-FT runs per U.S. state"
 authors:
   - family-names: Wang
@@ -17,20 +17,42 @@ repository-code: "https://github.com/YihanWangHydro/ModelRun_State"
 identifiers:
   - type: doi
     value: 10.1029/2024WR039131
+  - type: doi
+    value: 10.48550/arXiv.2501.14980
 preferred-citation:
-  type: article
-  title: "A Mass Conservation Relaxed (MCR) LSTM Model for Streamflow Simulation across CONUS"
-  authors:
-    - family-names: Wang
-      given-names: Yihan
-    - family-names: Zhang
-      given-names: Lujun
-    - family-names: Erichson
-      given-names: N. Benjamin
-    - family-names: Yang
-      given-names: Tiantian
-  journal: "Water Resources Research"
-  year: 2025
-  volume: 61
-  issue: 8
-  doi: 10.1029/2024WR039131
+  type: collection
+  title: "Papers associated with the ModelRun_State repository"
+  collection-title: "Citations for MCR-LSTM and S4D-FT models"
+  items:
+    - type: article
+      title: "A Mass Conservation Relaxed (MCR) LSTM Model for Streamflow Simulation across CONUS"
+      authors:
+        - family-names: Wang
+          given-names: Yihan
+        - family-names: Zhang
+          given-names: Lujun
+        - family-names: Erichson
+          given-names: N. Benjamin
+        - family-names: Yang
+          given-names: Tiantian
+      journal: "Water Resources Research"
+      year: 2025
+      volume: 61
+      issue: 8
+      doi: 10.1029/2024WR039131
+    - type: article
+      title: "A Deep State Space Model for Rainfall–Runoff Simulations"
+      authors:
+        - family-names: Wang
+          given-names: Yihan
+        - family-names: Zhang
+          given-names: Lujun
+        - family-names: Yu
+          given-names: Aolin
+        - family-names: Erichson
+          given-names: N. Benjamin
+        - family-names: Yang
+          given-names: Tiantian
+      journal: "arXiv preprint"
+      year: 2025
+      doi: 10.48550/arXiv.2501.14980
