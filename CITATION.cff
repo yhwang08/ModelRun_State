@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both this repository and the associated papers."
+title: "ModelRun_State: Codes for LSTM, MCR-LSTM, and S4D-FT runs per U.S. state"
+authors:
+  - family-names: Wang
+    given-names: Yihan
+  - family-names: Zhang
+    given-names: Lujun
+  - family-names: Erichson
+    given-names: N. Benjamin
+  - family-names: Yang
+    given-names: Tiantian
+version: "1.0"
+date-released: 2025-10-22
+doi: 10.1029/2024WR039131
+license: MIT
+repository-code: "https://github.com/YihanWangHydro/ModelRun_State"
+preferred-citation:
+  type: article
+  title: "A Mass Conservation Relaxed (MCR) LSTM Model for Streamflow Simulation across CONUS"
+  authors:
+    - family-names: Wang
+      given-names: Yihan
+    - family-names: Zhang
+      given-names: Lujun
+    - family-names: Erichson
+      given-names: N. Benjamin
+    - family-names: Yang
+      given-names: Tiantian
+  journal: "Water Resources Research"
+  year: 2025
+  volume: 61
+  issue: 8
+  doi: 10.1029/2024WR039131
