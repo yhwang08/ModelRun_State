@@ -24,10 +24,19 @@ For regional train across CONUS on GPU, refer to the shared repo specified in th
 
    common/prepare_from_camels_by_state_geo.py
 
+   Update the variables camels_root (path to CAMELS dataset) and state_name in the script as needed.
+4. **Train and test**
 
-4. **Integrate results**
+   Execute train.py inside each of the following folders for model training and evaluation:
+   
+   LSTM/
+   
+   MCRLSTM/
+   
+   S4DFT/
+
+6. **Integrate results**
 After training is complete, merge outputs and statistics from three models:
 
-combine_all_model_output.py
-combine_all_model_stats.py
+combine_all_model_output.py, and combine_all_model_stats.py
 
