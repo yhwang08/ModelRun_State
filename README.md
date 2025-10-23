@@ -21,13 +21,13 @@ For regional train across CONUS on GPU, refer to the shared repo specified in th
 
 3. **Preprocess data**  
    Run the following script to prepare the state-level inputs:
-   ```bash
-   python common/prepare_from_camels_by_state_geo.py
+
+   common/prepare_from_camels_by_state_geo.py
 
 
-Integrate results
-After training is complete, merge outputs and statistics:
+4. **Integrate results**
+After training is complete, merge outputs and statistics from three models:
 
-python combine_all_model_output.py
-python combine_all_model_stats.py
+combine_all_model_output.py
+combine_all_model_stats.py
 
