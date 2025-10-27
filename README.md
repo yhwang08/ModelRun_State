@@ -37,6 +37,7 @@ For regional train across CONUS on GPU, refer to the shared repo specified in th
 
 6. **Integrate results**
 After training is complete, merge outputs and statistics from three models:
-
 combine_all_model_output.py, and combine_all_model_stats.py
+
+With default hyperparameters you should get same results as uploaded into the run folder.
 
