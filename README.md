@@ -5,8 +5,7 @@ Wang, Y., Zhang, L., Erichson, N. B., & Yang, T. (2025). A Mass Conservation Rel
 https://doi.org/10.1029/2024WR039131
 
 S4D-FT is presented in:
-Wang, Y., Zhang, L., Yu, A., Erichson, N. B., & Yang, T. (2025). A Deep State Space Model for Rainfall–Runoff Simulations. arXiv preprint arXiv:2501.14980.
-https://arxiv.org/abs/2501.14980
+Wang, Y., Zhang, L., Yu, A., Erichson, N. B., & Yang, T. (2025). A deep state space model for rainfall-runoff simulations. Water Resources Research, 61, e2025WR039888. https://doi.org/10.1029/2025WR039888
 
 For regional train across CONUS on GPU, refer to the shared repo specified in the above two papers. 
 
